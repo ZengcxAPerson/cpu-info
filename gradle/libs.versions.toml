@@ -1,9 +1,9 @@
 [versions]
-androidGradlePlugin = "8.7.3"
-androidxActivity = "1.9.3"
+androidGradlePlugin = "8.8.0"
+androidxActivity = "1.10.0"
 androidxArchCoreTesting = "2.2.0"
 androidxCoreSpalshscreen = "1.0.1"
-androidxDatastorePreferences = "1.1.1"
+androidxDatastorePreferences = "1.1.2"
 androidxEspresso = "3.6.1"
 androidxLifecycle = "2.8.4"
 androidxNavigation = "2.8.0-alpha11"
@@ -28,7 +28,7 @@ kotlin = "2.1.0"
 kotlinxBrowser = "0.3"
 kotlinxCoroutines = "1.10.1"
 kotlinxImmutable = "0.3.8"
-kover = "0.9.0"
+kover = "0.9.1"
 ksp = "2.1.0-1.0.29"
 oshi = "6.6.5"
 profileinstaller = "1.4.1"
@@ -60,7 +60,7 @@ androidx-wear-material = { module = "androidx.wear.compose:compose-material", ve
 androidx-wear-navigation = { module = "androidx.wear.compose:compose-navigation", version.ref = "androidxWear" }
 coil = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref = "coil" }
 compose-adaptive = { module = "org.jetbrains.compose.material3.adaptive:adaptive", version.ref = "composeAdaptive" }
-compose-ui-test = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "composeUiTest" }
+compose-ui-test = { module = "androidx.compose.ui:ui-test-junit4-android", version.ref = "composeUiTest" }
 compose-ui-testManifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "composeUiTest" }
 horologist-compose-layout = { module = "com.google.android.horologist:horologist-compose-layout", version.ref = "horologist" }
 horologist-compose-material = { module = "com.google.android.horologist:horologist-compose-material", version.ref = "horologist" }

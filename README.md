@@ -28,12 +28,15 @@ height="80">](https://flathub.org/apps/com.kgurgul.cpuinfo)
 [<img src="info/ms_badge.png"
 alt="Get it from Microsoft"
 height="80">](https://apps.microsoft.com/detail/9phxq0f4knbl)
+[<img src="info/get-it-on-homebrew.png"
+alt="Get it from Homebrew"
+height="80">](https://formulae.brew.sh/cask/cpu-info)
 
 # Supported platforms 
 
-| Android | Android TV | iOS | Desktop |                                                                                   Wasm                                                                                   |
-|:-------:|:----------:|:---:|:-------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|    ✅    |     ✅      |  ✅  |    ✅    | ✅<br/>[In preview](https://kgurgul.com/assets/cpuinfo/)<br/>Known issues: [1](https://youtrack.jetbrains.com/issue/CMP-6900/NavigationRail-items-not-visible-on-WASM-JS) |
+| Android | Android TV | Wear OS | iOS | Desktop |                                                                                   Wasm                                                                                   |
+|:-------:|:----------:|:-------:|:---:|:-------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|    ✅    |     ✅      |    ✅    |  ✅  |    ✅    | ✅<br/>[In preview](https://kgurgul.com/assets/cpuinfo/)<br/>Known issues: [1](https://youtrack.jetbrains.com/issue/CMP-6900/NavigationRail-items-not-visible-on-WASM-JS) |
 
 # Tech stack
 
@@ -44,15 +47,13 @@ height="80">](https://apps.microsoft.com/detail/9phxq0f4knbl)
 * [Koin](https://github.com/InsertKoinIO/koin)
 * [Coil](https://github.com/coil-kt/coil)
 * [DataStore](https://developer.android.com/kotlin/multiplatform/datastore)
-* External C libraries - [pytorch/cpuinfo](https://github.com/pytorch/cpuinfo)
+* [pytorch/cpuinfo](https://github.com/pytorch/cpuinfo)
 * [OSHI](https://github.com/oshi/oshi)
 
 # TODO
 
-* Shared UI tests
-* Add Wear OS support - share as much as possible with Apple Watch
-* Upload to brew cask
 * Add about section
+* Upload Wear OS app to Play Store when SDK 35 will be supported
 
 # License
 
